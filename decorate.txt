@@ -178,3 +178,15 @@ Actor MediumLampM : TechLamp2 replaces TechLamp2 {}
 Actor YellowKeyM : YellowCard replaces YellowCard {}
 
 Actor YellowSkullM : YellowSkull replaces YellowSkull {}
+
+Actor DudeHasModels : DoomPlayer {
+
+  Player.WeaponSlot 1, Fist, ChainsawM
+  Player.WeaponSlot 2, Pistol
+  Player.WeaponSlot 3, ShotgunM, SuperShotGunM
+  Player.WeaponSlot 4, MachinegunM
+  Player.WeaponSlot 5, RocketLauncherM
+  Player.WeaponSlot 6, PlasmaRifleM
+  Player.WeaponSlot 7, BfgM
+
+}
