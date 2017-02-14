@@ -1,0 +1,180 @@
+Actor ChainsawM : Chainsaw replaces Chainsaw {}
+
+Actor ClipBoxM : ClipBox replaces ClipBox {}
+
+Actor GreenArmorM : GreenArmor replaces GreenArmor {}
+
+Actor BlueArmorM : BlueArmor replaces BlueArmor {}
+
+Actor BarrelM : ExplosiveBarrel replaces ExplosiveBarrel {}
+
+Actor BfgM : BFG9000 replaces BFG9000 {}
+
+Actor BluKeyM : BlueCard replaces BlueCard {}
+
+Actor PotionM : HealthBonus replaces HealthBonus {}
+
+Actor HelmetM : ArmorBonus replaces ArmorBonus {}
+
+Actor BackpackM : Backpack replaces Backpack {}
+
+Actor RocketPackM : RocketBox replaces RocketBox {}
+
+Actor BluSkullM : BlueSkull replaces BlueSkull {}
+
+Actor CandleM : Candlestick replaces  Candlestick {}
+
+Actor CandelabraM : Candelabra replaces Candelabra {}
+
+Actor CellM : Cell replaces Cell {}
+
+Actor CellPackM : CellPack replaces CellPack {}
+
+Actor ClipM : Clip replaces Clip {}
+
+Actor MarbleTallM : TallGreenColumn replaces TallGreenColumn {}
+
+Actor MarbleSmallM : ShortGreenColumn replaces ShortGreenColumn {}
+
+Actor RubyTallM : TallRedColumn replaces TallRedColumn {}
+
+Actor RubySmallM : ShortRedColumn replaces ShortRedColumn {}
+
+Actor BeatingHeartM : HeartColumn replaces HeartColumn {}
+
+Actor LightPostM : Column replaces Column {}
+
+Actor ElecPostM : TechPillar replaces TechPillar  {}
+
+Actor HangingBodyM : HangTNoBrain replaces HangTNoBrain {}
+
+Actor RocketLauchM : RocketLauncher replaces RocketLauncher {}
+
+Actor MediboxM : Medikit replaces Medikit {}
+
+Actor MachinegunM : Chaingun replaces Chaingun {}
+
+Actor MissileM : Rocket replaces Rocket {}
+
+Actor PlasmaRifleM : PlasmaRifle replaces PlasmaRifle {}
+
+Actor MapM : Allmap replaces Allmap {}
+
+Actor PoleM : HeadOnAStick replaces HeadOnAStick {}
+
+Actor BerserkM : Berserk replaces Berserk {}
+
+Actor VisorM : Infrared replaces Infrared {}
+
+Actor RedKeyM : RedCard replaces RedCard {}
+
+Actor RocketM : RocketAmmo replaces RocketAmmo {}
+
+Actor RedSkullM : RedSkull replaces RedSkull {}
+
+Actor ShellBoxM : ShellBox replaces ShellBox {}
+
+Actor SuperShotGunM : SuperShotgun replaces SuperShotgun {}
+
+Actor ShellsM : Shell replaces Shell {}
+
+Actor ShotgunM : Shotgun replaces Shotgun {}
+
+Actor StimpackM : Stimpack replaces Stimpack {}
+
+Actor SuitM : RadSuit replaces RadSuit{}
+
+Actor TallBlueM : BlueTorch replaces BlueTorch 
+{
+	Radius 16
+	Height 64
+	+SOLID
+	states
+	{
+	Spawn:
+		TBLU AABBCCDD 1 BRIGHT A_SpawnItemEx("VP_BlueFlame", random(-2, 2), random(-2, 2), 58, 0, 0, 1)
+		loop
+	}
+}
+
+ACTOR VP_BlueFlame
+{
+	radius 2
+	height 2
+	mass 400
+	-SOLID
+	+NOGRAVITY
+//	renderstyle add
+	states
+	{
+	Spawn:
+		BLUF ABCDEFGGG 2 BRIGHT
+		stop
+	}
+}
+
+Actor TallGreenM : GreenTorch replaces GreenTorch 
+{
+	Radius 16
+	Height 64
+	+SOLID
+	states
+	{
+	Spawn:
+		TGRN AABBCCDD 1 BRIGHT A_SpawnItemEx("VP_GreenFlame", random(-2, 2), random(-2, 2), 58, 0, 0, 1)
+		loop
+	}
+}
+
+ACTOR VP_GreenFlame
+{
+	radius 2
+	height 2
+	mass 400
+	-SOLID
+	+NOGRAVITY
+//	renderstyle add
+	states
+	{
+	Spawn:
+		GRNF ABCDEFGGG 2 BRIGHT
+		stop
+	}
+}
+
+Actor TallRedM : RedTorch replaces RedTorch 
+{
+	Radius 16
+	Height 64
+	+SOLID
+	states
+	{
+	Spawn:
+		TRED AABBCCDD 1 BRIGHT A_SpawnItemEx("VP_RedFlame", random(-2, 2), random(-2, 2), 58, 0, 0, 1)
+		loop
+	}
+}
+
+ACTOR VP_RedFlame
+{
+	radius 2
+	height 2
+	mass 400
+	-SOLID
+	+NOGRAVITY
+//	renderstyle add
+	states
+	{
+	Spawn:
+		REDF ABCDEFGGG 2 BRIGHT
+		stop
+	}
+}
+
+Actor TallLampM : TechLamp replaces TechLamp {}
+
+Actor MediumLampM : TechLamp2 replaces TechLamp2 {}
+
+Actor YellowKeyM : YellowCard replaces YellowCard {}
+
+Actor YellowSkullM : YellowSkull replaces YellowSkull {}

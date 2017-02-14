@@ -1,0 +1,716 @@
+
+Model ChainsawM
+{
+	Path "models"
+	Model 0 "CSAWA0.md3"
+	Path "textures"
+	Skin 0 "CSAWA0_texture0.png"
+	AngleOffset 90
+	Scale 2 2 2.4
+	FrameIndex CSAW A 0 0
+}
+
+Model ClipBoxM
+
+{
+	Path "models"
+	Model 0 "AMMOA.md3"
+	Path "textures"
+	Skin 0 "AMMOA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex AMMO A 0 0
+}
+
+Model GreenArmorM
+
+{
+	Path "models"
+	Model 0 "ARM1A.md3"
+	Model 1 "ARM1B.md3"
+	Path "textures"
+	Skin 0 "ARM1A_texture0.png"
+	Skin 1 "ARM1B_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex ARM1 A 0 0
+	FrameIndex ARM1 B 1 0
+}
+
+
+Model BlueArmorM
+
+{
+	Path "models"
+	Model 0 "ARM2A.md3"
+	Model 1 "ARM2B.md3"
+	Path "textures"
+	Skin 0 "ARM2A_texture0.png"
+	Skin 1 "ARM2B_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex  ARM2 A 0 0
+	FrameIndex  ARM2 B 1 0
+}
+
+
+
+Model BarrelM
+
+{
+	Path "models"
+	Model 0 "BAR1A.md3"
+	Model 1 "BAR1B.md3"
+	Path "textures"
+	Skin 0 "BAR1A_texture0.png"
+	Skin 1 "BAR1B_texture0.png"
+	AngleOffset 90
+	Scale 5 5 6
+	FrameIndex BAR1 A 0 0
+	FrameIndex BAR1 B 1 0
+}
+
+Model BfgM
+
+{
+	Path "models"
+	Model 0 "BFUGA.md3"
+	Path "textures"
+	Skin 0 "BFUGA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex BFUG A 0 0
+}
+
+
+
+Model BluKeyM
+
+{
+	Path "models"
+	Model 0 "BKEYA.md3"
+	Model 1 "BKEYB.md3"
+	Path "textures"
+	Skin 0 "BKEYA_texture0.png"
+	Skin 1 "BKEYB_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	ROTATING
+	FrameIndex  BKEY A 0 0
+	FrameIndex  BKEY B 1 0
+}
+
+Model PotionM
+
+{
+	Path "models"
+	Model 0 "BON1A.md3"
+	Model 1 "BON1B.md3"
+	Model 2 "BON1C.md3"
+	Model 3 "BON1D.md3"
+	Path "textures"
+	Skin 0 "BON1A_texture0.png"
+	Skin 1 "BON1B_texture0.png"
+	Skin 2 "BON1C_texture0.png"
+	Skin 3 "BON1D_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex  BON1 A 0 0
+	FrameIndex  BON1 B 1 0
+	FrameIndex  BON1 C 2 0
+	FrameIndex  BON1 D 3 0
+}
+
+Model HelmetM
+
+{
+	Path "models"
+	Model 0 "BON2A.md3"
+	Model 1 "BON2B.md3"
+	Model 2 "BON2C.md3"
+	Model 3 "BON2D.md3"
+	Path "textures"
+	Skin 0 "BON2A_texture0.png"
+	Skin 1 "BON2B_texture0.png"
+	Skin 2 "BON2C_texture0.png"
+	Skin 3 "BON2D_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex  BON2 A 0 0
+	FrameIndex  BON2 B 1 0
+	FrameIndex  BON2 C 2 0
+	FrameIndex  BON2 D 3 0
+}
+
+Model BackpackM
+
+{
+	Path "models"
+	Model 0 "BPAKA.md3"
+	Path "textures"
+	Skin 0 "BPAKA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex BPAK A 0 0
+}
+
+Model RocketPackM
+
+{
+	Path "models"
+	Model 0 "BROKA.md3"
+	Path "textures"
+	Skin 0 "BROKA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex BROK A 0 0
+}
+
+Model BluSkullM
+
+{
+	Path "models"
+	Model 0 "BSKUA.md3"
+	Model 1 "BSKUB.md3"
+	Path "textures"
+	Skin 0 "BSKUA_texture0.png"
+	Skin 1 "BSKUB_texture0.png"
+	AngleOffset 90
+	Scale 5 5 6
+	FrameIndex  BSKU A 0 0
+	FrameIndex  BSKU B 1 0
+}
+
+Model CandleM
+
+{
+	Path "models"
+	Model 0 "CANDA.md3"
+	Path "textures"
+	Skin 0 "CANDA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex CAND A 0 0
+}
+
+Model CandelabraM
+
+{
+	Path "models"
+	Model 0 "CANDLBRA.md3"
+	Path "textures"
+	Skin 0 "CANDLBRA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex CANDLBR A 0 0
+}
+
+
+Model CellM
+
+{
+	Path "models"
+	Model 0 "CELLA.md3"
+	Path "textures"
+	Skin 0 "CELLA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex CELL A 0 0
+}
+
+Model CellPackM
+
+{
+	Path "models"
+	Model 0 "CELPA.md3"
+	Path "textures"
+	Skin 0 "CELPA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex CELP A 0 0
+}
+
+Model ClipM
+
+{
+	Path "models"
+	Model 0 "CLIPA.md3"
+	Path "textures"
+	Skin 0 "CLIPA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex CLIP A 0 0
+}
+
+Model MarbleTallM
+
+{
+	Path "models"
+	Model 0 "COL1A.md3"
+	Path "textures"
+	Skin 0 "COL1A_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex COL1 A 0 0
+}
+
+Model MarbleSmallM
+
+{
+	Path "models"
+	Model 0 "COL2A.md3"
+	Path "textures"
+	Skin 0 "COL2A_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex COL2 A 0 0
+}
+
+Model RubyTallM
+
+{
+	Path "models"
+	Model 0 "COL3A.md3"
+	Path "textures"
+	Skin 0 "COL3A_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex COL3 A 0 0
+}
+
+Model RubySmallM
+
+{
+	Path "models"
+	Model 0 "COL4A.md3"
+	Path "textures"
+	Skin 0 "COL4A_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex COL3 A 0 0
+}
+
+Model BeatingHeartM
+
+{
+	Path "models"
+	Model 0 "COL5A.md3"
+	Model 1 "COL5B.md3"
+	Path "textures"
+	Skin 0 "COL5A_texture0.png"
+	Skin 1 "COL5B_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex  COL5 A 0 0
+	FrameIndex  COL5 B 1 0
+}
+
+Model LightPostM
+
+{
+	Path "models"
+	Model 0 "COLUA.md3"
+	Path "textures"
+	Skin 0 "COLUA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex COLU A 0 0
+}
+
+Model ElecPostM
+
+{
+	Path "models"
+	Model 0 "ELECA.md3"
+	Path "textures"
+	Skin 0 "ELECA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex ELEC A 0 0
+}
+
+Model HangingBodyM
+
+{
+	Path "models"
+	Model 0 "HDB6A.md3"
+	Path "textures"
+	Skin 0 "HDB6A_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex HDB6 A 0 0
+}
+
+Model RocketLauchM
+
+{
+	Path "models"
+	Model 0 "LAUNA.md3"
+	Path "textures"
+	Skin 0 "LAUNA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex LAUN A 0 0
+}
+
+Model MediboxM
+
+{
+	Path "models"
+	Model 0 "MEDIA.md3"
+	Path "textures"
+	Skin 0 "MEDIA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex MEDI A 0 0
+}
+
+Model MachinegunM
+
+{
+	Path "models"
+	Model 0 "MGUNA.md3"
+	Path "textures"
+	Skin 0 "MGUNA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex MGUN A 0 0
+}
+
+Model MissileM
+
+{
+	Path "models"
+	Model 0 "MISLA.md3"
+	Path "textures"
+	Skin 0 "MISLA_texture0.png"
+	AngleOffset 180
+	Scale 10 10 12
+	PITCHFROMMOMENTUM
+	FrameIndex MISL A 0 0
+}
+
+Model PlasmaRifleM
+
+{
+	Path "models"
+	Model 0 "PLASA.md3"
+	Path "textures"
+	Skin 0 "PLASA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex PLAS A 0 0
+}
+
+Model MapM
+
+{
+	Path "models"
+	Model 0 "PMAPA.md3"
+	Model 1 "PMAPB.md3"
+	Model 2 "PMAPC.md3"
+	Model 3 "PMAPD.md3"
+	Path "textures"
+	Skin 0 "PMAPA_texture0.png"
+	Skin 1 "PMAPB_texture0.png"
+	Skin 2 "PMAPC_texture0.png"
+	Skin 3 "PMAPD_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex  PMAP A 0 0
+	FrameIndex  PMAP B 1 0
+	FrameIndex  PMAP C 2 0
+	FrameIndex  PMAP D 3 0
+}
+
+Model PoleM
+
+{
+	Path "models"
+	Model 0 "POL4A.md3"
+	Path "textures"
+	Skin 0 "POL4A_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex POL4 A 0 0
+}
+
+Model BerserkM
+
+{
+	Path "models"
+	Model 0 "PSTRA.md3"
+	Path "textures"
+	Skin 0 "PSTRA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex PSTR A 0 0
+}
+
+
+Model VisorM
+
+{
+	Path "models"
+	Model 0 "PVISA.md3"
+	Model 1 "PVISB.md3"
+	Path "textures"
+	Skin 0 "PVISA_texture0.png"
+	Skin 1 "PVISB_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex  PVIS A 0 0
+	FrameIndex  PVIS B 1 0
+}
+
+Model RedKeyM
+
+{
+	Path "models"
+	Model 0 "RKEYA.md3"
+	Model 1 "RKEYB.md3"
+	Path "textures"
+	Skin 0 "RKEYA_texture0.png"
+	Skin 1 "RKEYB_texture0.png"
+	AngleOffset 90
+	ROTATING
+	Scale 10 10 12
+	FrameIndex  RKEY A 0 0
+	FrameIndex  RKEY B 1 0
+}
+
+
+Model RocketM
+
+{
+	Path "models"
+	Model 0 "ROCKA.md3"
+	Path "textures"
+	Skin 0 "ROCKA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex ROCK A 0 0
+}
+
+Model RedSkullM
+
+{
+	Path "models"
+	Model 0 "RSKUA.md3"
+	Model 1 "RSKUb.md3"
+	Path "textures"
+	Skin 0 "RSKUA_texture0.png"
+	Skin 1 "RSKUB_texture0.png"
+	AngleOffset 90
+	Scale 5 5 6
+	FrameIndex RSKU A 0 0
+	FrameIndex RSKU B 1 0
+}
+
+Model ShellBoxM
+
+{
+	Path "models"
+	Model 0 "SBOXA.md3"
+	Path "textures"
+	Skin 0 "SBOXA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex SBOX A 0 0
+}
+
+Model SuperShotGunM
+
+{
+	Path "models"
+	Model 0 "SGN2A.md3"
+	Path "textures"
+	Skin 0 "SGN2A_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex SGN2 A 0 0
+}
+
+Model ShellsM
+
+{
+	Path "models"
+	Model 0 "SHELA.md3"
+	Path "textures"
+	Skin 0 "SHELA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex SHEL A 0 0
+}
+
+Model ShotgunM
+
+{
+	Path "models"
+	Model 0 "SHOTA.md3"
+	Path "textures"
+	Skin 0 "SHOTA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex SHOT A 0 0
+}
+
+Model StimpackM
+
+{
+	Path "models"
+	Model 0 "STIMA.md3"
+	Path "textures"
+	Skin 0 "STIMA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex STIM A 0 0
+}
+
+Model SuitM
+
+{
+	Path "models"
+	Model 0 "SUITA.md3"
+	Path "textures"
+	Skin 0 "SUITA_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex SUIT A 0 0
+}
+
+Model TallBlueM
+
+{
+	Path "models"
+	Model 0 "TBLUA.md3"
+	Model 1 "TBLUB.md3"
+	Model 2 "TBLUC.md3"
+	Model 3 "TBLUD.md3"
+	Path "textures"
+	Skin 0 "TBLUA_texture0.png"
+	Skin 1 "TBLUB_texture0.png"
+	Skin 2 "TBLUC_texture0.png"
+	Skin 3 "TBLUD_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex TBLU A 0 0
+	FrameIndex TBLU B 1 0
+	FrameIndex TBLU C 2 0
+	FrameIndex TBLU D 3 0
+}
+
+Model TallGreenM
+
+{
+	Path "models"
+	Model 0 "TGRNA.md3"
+	Model 1 "TGRNB.md3"
+	Model 2 "TGRNC.md3"
+	Model 3 "TGRND.md3"
+	Path "textures"
+	Skin 0 "TGRNA_texture0.png"
+	Skin 1 "TGRNB_texture0.png"
+	Skin 2 "TGRNC_texture0.png"
+	Skin 3 "TGRND_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex TGRN A 0 0
+	FrameIndex TGRN B 1 0
+	FrameIndex TGRN C 2 0
+	FrameIndex TGRN D 3 0
+}
+
+Model TallRedM
+
+{
+	Path "models"
+	Model 0 "TREDA.md3"
+	Model 1 "TREDB.md3"
+	Model 2 "TREDC.md3"
+	Model 3 "TREDD.md3"
+	Path "textures"
+	Skin 0 "TREDA_texture0.png"
+	Skin 1 "TREDB_texture0.png"
+	Skin 2 "TREDC_texture0.png"
+	Skin 3 "TREDD_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex TRED A 0 0
+	FrameIndex TRED B 1 0
+	FrameIndex TRED C 2 0
+	FrameIndex TRED D 3 0
+}
+
+Model TallLampM
+
+{
+	Path "models"
+	Model 0 "TLMPA.md3"
+	Model 1 "TLMPB.md3"
+	Model 2 "TLMPC.md3"
+	Model 3 "TLMPD.md3"
+	Path "textures"
+	Skin 0 "TLMPA_texture0.png"
+	Skin 1 "TLMPB_texture0.png"
+	Skin 2 "TLMPC_texture0.png"
+	Skin 3 "TLMPD_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex TLMP A 0 0
+	FrameIndex TLMP B 1 0
+	FrameIndex TLMP C 2 0
+	FrameIndex TLMP D 3 0
+}
+
+Model MediumLampM
+
+{
+	Path "models"
+	Model 0 "TLP2A.md3"
+	Model 1 "TLP2B.md3"
+	Model 2 "TLP2C.md3"
+	Model 3 "TLP2D.md3"
+	Path "textures"
+	Skin 0 "TLP2A_texture0.png"
+	Skin 1 "TLP2B_texture0.png"
+	Skin 2 "TLP2C_texture0.png"
+	Skin 3 "TLP2D_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	FrameIndex TLP2 A 0 0
+	FrameIndex TLP2 B 1 0
+	FrameIndex TLP2 C 2 0
+	FrameIndex TLP2 D 3 0
+}
+
+Model YellowKeyM
+
+{
+	Path "models"
+	Model 0 "YKEYA.md3"
+	Model 1 "YKEYB.md3"
+	Path "textures"
+	Skin 0 "YKEYA_texture0.png"
+	Skin 1 "YKEYB_texture0.png"
+	AngleOffset 90
+	Scale 10 10 12
+	ROTATING
+	FrameIndex  YKEY A 0 0
+	FrameIndex  YKEY B 1 0
+}
+
+Model YellowSkullM
+
+{
+	Path "models"
+	Model 0 "YSKUA.md3"
+	Model 1 "YSKUb.md3"
+	Path "textures"
+	Skin 0 "YSKUA_texture0.png"
+	Skin 1 "YSKUB_texture0.png"
+	AngleOffset 90
+	Scale 5 5 6
+	FrameIndex YSKU A 0 0
+	FrameIndex YSKU B 1 0
+}
